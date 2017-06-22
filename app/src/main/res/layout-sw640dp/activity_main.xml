@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.moviephase1.MainActivity">
+
+
+
+    <fragment
+        android:id="@+id/a"
+        android:name="com.example.android.moviephase1.MainFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        tools:layout="@layout/fragment_main"
+
+        />
+
+   <FrameLayout
+       android:id="@+id/b"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="4"
+       />
+</LinearLayout>
